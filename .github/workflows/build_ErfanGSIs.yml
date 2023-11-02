@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://hugeota.d.miui.com/V14.0.23.4.17.DEV/miui_ARES_V14.0.23.4.17.DEV_6d67cc0938_13.0.zip
+  ROM_URL: https://hugeota.d.miui.com/21.10.20/miui_ARES_21.10.20_1042c24b86_11.0.zip
   ROM_NAME: MIUI
   BUILD_TYPE: ab
   TZ: Asia/Shanghai
@@ -61,7 +61,7 @@ jobs:
          run: |
               cd $GITHUB_WORKSPACE/ErfanGSIs/output
               curl -sL https://git.io/file-transfer | sh
-              ./transfer wet ./final/GSI.zip
+              ./transfer gof ./final/GSI.zip
 
          
             
